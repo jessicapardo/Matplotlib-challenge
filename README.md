@@ -16,13 +16,13 @@ Full detail of the solution can be found in the Pymaceuticals script  [Pymaceuti
 
 * Before beginning the analysis, the data was checked for any mouse ID with duplicate time points and  any data associated with that mouse ID was removed. Cleaned data was used for the remaining steps. The head (5 rows on the top) of cleaned data is shown below.
 
-[clean data](Images/data_combined_clean_head.png)
+![clean data](Images/data_combined_clean_head.png)
 
-### Summary statistics
+### Summary Statistics
 
 * A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen was generated. 
 
-[summary statistics](Images/summary_statistics.png)
+![summary statistics](Images/summary_statistics.png)
 
 ### Bar Charts and Pie Charts
 
@@ -30,22 +30,22 @@ Full detail of the solution can be found in the Pymaceuticals script  [Pymaceuti
 
 Pandas's `DataFrame.plot()`
 
-[pandas bar plot](Images/bar_plot_pandas.png)
+![pandas bar plot](Images/bar_plot_pandas.png)
 
-Matplotlib's `pyplot
+Matplotlib's `pyplot`
 
-[pyplot bar plot](Images/bar_plot_pyplot.png)
+![pyplot bar plot](Images/bar_plot_pyplot.png)
 
 
 *  Two identical pie plot using two methods (Pandas's `DataFrame.plot()` and Matplotlib's `pyplot`) that shows the distribution of female or male mice in the study were generated.
 
 Pandas's `DataFrame.plot()`
 
-[pandas pie plot](Images/pie_plot_pandas.png)
+![pandas pie plot](Images/pie_plot_pandas.png)
 
-Matplotlib's `pyplot
+Matplotlib's `pyplot`
 
-[pyplot pie plot](Images/pie_plot_pyplot.png)
+![pyplot pie plot](Images/pie_plot_pyplot.png)
 
 ### Quartiles, Outliers and Boxplots
 
@@ -53,7 +53,7 @@ Matplotlib's `pyplot
 
 Final Tumor Volume for all four treatment regimens. The head (5 rows on the top) of summary table is shown below.
 
-[final tumor vol best regimens](Images/final_tumor_vol_best_regimens_head.png)
+![final tumor vol best regimens](Images/final_tumor_vol_best_regimens_head.png)
 
 Quartiles and IQR and quantitatively determination of any potential outliers across all four treatment regimens.
 
@@ -61,14 +61,17 @@ IQR for Capomulin: 7.78
 Lower Bound for Capomulin: 20.71
 Upper Bound for Capomulin: 51.83
 Number of Capomulin outliers: 0
+
 IQR for Ramicane: 9.1
 Lower Bound for Ramicane: 17.91
 Upper Bound for Ramicane: 54.31
 Number of Ramicane outliers: 0
+
 IQR for Infubinol: 11.48
 Lower Bound for Infubinol: 36.83
 Upper Bound for Infubinol: 82.75
 Number of Infubinol outliers: 1
+
 IQR for Ceftamin: 15.58
 Lower Bound for Ceftamin: 25.35
 Upper Bound for Ceftamin: 87.67
@@ -76,25 +79,25 @@ Number of Ceftamin outliers: 0
 
 * A box and whisker plot of the final tumor volume for all four treatment regimens was generated, and a potential outliers highlighted by using color, and style.
 
-[box plot](Images/box_plot_best_regimens.png)
+![box plot](Images/box_plot_best_regimens.png)
 
 
 ### Line ad Scatter Plots
 
 * A line plot of tumor volume vs. time point for a random mouse that was treated with Capomulin was generated.
 
-[line plot](Images/line_plot_Capomulin.png)
+![line plot](Images/line_plot_Capomulin.png)
 
 
 * A scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen was generated.
 
-[line plot](Images/scatter_plot_capomulin.png)
+![line plot](Images/scatter_plot_capomulin.png)
 
 ### Correlation and Regression
 
 * The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was calculated. The linear regression model on top of the previous scatter plot was generated.
 
-[regression](Images/regression_plot_capomulin.png)
+![regression](Images/regression_plot_capomulin.png)
 
 
 ## Observations and Insights
