@@ -57,24 +57,24 @@ Final Tumor Volume for all four treatment regimens. The head (5 rows on the top)
 
 Quartiles and IQR and quantitatively determination of any potential outliers across all four treatment regimens.
 
-IQR for Capomulin: 7.78
-Lower Bound for Capomulin: 20.71
-Upper Bound for Capomulin: 51.83
+IQR for Capomulin: 7.78, 
+Lower Bound for Capomulin: 20.71, 
+Upper Bound for Capomulin: 51.83, 
 Number of Capomulin outliers: 0
 
-IQR for Ramicane: 9.1
-Lower Bound for Ramicane: 17.91
-Upper Bound for Ramicane: 54.31
+IQR for Ramicane: 9.1, 
+Lower Bound for Ramicane: 17.91, 
+Upper Bound for Ramicane: 54.31, 
 Number of Ramicane outliers: 0
 
-IQR for Infubinol: 11.48
-Lower Bound for Infubinol: 36.83
-Upper Bound for Infubinol: 82.75
+IQR for Infubinol: 11.48, 
+Lower Bound for Infubinol: 36.83, 
+Upper Bound for Infubinol: 82.75, 
 Number of Infubinol outliers: 1
 
-IQR for Ceftamin: 15.58
-Lower Bound for Ceftamin: 25.35
-Upper Bound for Ceftamin: 87.67
+IQR for Ceftamin: 15.58, 
+Lower Bound for Ceftamin: 25.35, 
+Upper Bound for Ceftamin: 87.67, 
 Number of Ceftamin outliers: 0
 
 * A box and whisker plot of the final tumor volume for all four treatment regimens was generated, and a potential outliers highlighted by using color, and style.
